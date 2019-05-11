@@ -1,0 +1,38 @@
+@font-face {
+  font-family: '';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/.eot'); /* IE9 Compat Modes */
+  src: local(''), local(''),
+       url('../fonts/.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/.svg#') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: '';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/.eot'); /* IE9 Compat Modes */
+  src: local(''), local(''),
+       url('../fonts/.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/.svg#') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: '';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/.eot'); /* IE9 Compat Modes */
+  src: local('ProximaNova Black'), local(''),
+       url('../fonts/.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/.svg#') format('svg'); /* Legacy iOS */
+}

@@ -1,0 +1,105 @@
+doctype html
+html(lang="ru-RU")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(name="theme-color" content="#ff9800")
+		meta(name="msapplication-navbutton-color" content="#ff9800")
+		meta(name="apple-mobile-web-app-capable" content="yes")
+		meta(name="apple-mobile-web-app-status-bar-style" content="black-translucent")
+		meta(name="apple-touch-fullscreen" content="yes")
+		link(rel="icon" type="image/x-icon" sizes="16x16" href="#")
+		link(rel="icon" type="image/x-icon" sizes="32x32" href="#")
+		link(rel="icon" type="image/png" sizes="50x50" href="#")
+		link(rel="icon" type="image/png" sizes="60x60" href="#")
+		link(rel="icon" type="image/png" sizes="72x72" href="#")
+		link(rel="icon" type="image/png" sizes="76x76" href="#")
+		link(rel="icon" type="image/png" sizes="114x114" href="#")
+		link(rel="icon" type="image/png" sizes="120x120" href="#")
+		link(rel="icon" type="image/png" sizes="144x144" href="#")
+		link(rel="icon" type="image/png" sizes="152x152" href="#")
+		meta(name="format-detection" content="telephone=no")
+		title
+		link(rel="stylesheet" href="static/css/main.css")
+	body
+		section.payment-block
+			.wrapper
+				ul.page-list.breadcrumbs-block
+					li
+						a(href="#") Главная
+					li
+						a(href="#") Ламинат
+					li.active
+						a(href="#") Ламинат Aberhof
+				.payment-block__container
+					.payment-block__heading
+						.payment-block__heading-icon
+							img(src="static/img/hand.png", alt="Оплата")
+						.payment-block__heading-title
+							h2 Оплата
+					.payment-block__option-wrapper
+						.payment-block__option
+							h3 Для физических лиц:
+							ul.page-list.payment-block__list
+								li Наличными или картой (Visa/MasterCard)
+								li В магазине или при получении (для доставок в Москве)
+							.payment-block__option-bottom
+								.payment-block__option-icon
+									img.icon--payment(src="static/img/payment-method.png", alt="")
+								.payment-block__option-icon
+									img.icon--credit(src="static/img/credit-card.png", alt="")
+								.payment-block__option-icon
+									img(src="static/img/contract.png", alt="")
+						.payment-block__option
+							h3 Онлайн оплата:
+							ul.page-list.payment-block__list
+								li Банковской картой (Visa/MasterCard)
+								li Электронные деньги (Яндекс.Деньги, WebMoney)
+								li Онлайн Банк (Сбербанк.Онлайн, АльфаКлик)
+							.payment-block__option-bottom.payment-block__bottom-online
+								.payment-block__option-icon
+									img(src="static/img/mastercard.png", alt="")
+								.payment-block__option-icon
+									img(src="static/img/visa.png", alt="")
+								.payment-block__option-icon
+									img(src="static/img/mir-logo.png", alt="")
+								.payment-block__option-icon
+									img(src="static/img/yandex-money.png", alt="")
+								.payment-block__option-icon
+									img(src="static/img/sberbank-small.png", alt="")
+						.payment-block__option
+							h3 Для юридических лиц:
+							ul.page-list.payment-block__list
+								li Безналичный банковский перевод
+								li Онлайн-оплата банковской картой
+							.payment-block__option-bottom
+								a.payment-block__requisites(href="#") Наши реквезиты
+								.payment-block__option-icon
+									img(src="static/img/vtb.png", alt="")
+					.security-block
+						.security-block__left-part
+							.security-block__icon-block
+								img(src="static/img/shield.png", alt="")
+							.security-block__title
+								h2 Платить на нашем сайте безопасно
+						.security-block__right-part
+							.security-block__content
+								p Деньги замораживаются, а не списываются.  Если вы решите изменить состав заказа или вас не устроит доставка, мы сможем вернуть деньги в течение нескольких минут.
+								p Списание происходит только после 100% подтверждения заказа менеджером и его отгрузки.
+								p Безопасность сделки гарантирует компания Яндекс.Касса (компания на 75% принадлежит ПАО “Сбербанку”).
+							.security-block__option-bottom
+								.security-block__option-icon
+									img(src="static/img/sberbank-big.png", alt="")
+								.security-block__option-icon
+									img(src="static/img/comodo-secure.png", alt="")
+								.security-block__option-icon
+									img(src="static/img/yandex-cashbox.png", alt="")
+					.credit-block
+						.credit-block__heading
+							.credit-block__icon-block
+								img(src="static/img/banking.png", alt="")
+							.credit-block__title
+								h2 Рассрочка и кредит
+						.credit-block__text
+							p Возможна продажа в Рассрочку или Кредит.

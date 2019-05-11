@@ -1,0 +1,38 @@
+.credit-block {
+	margin-bottom: 40px;
+	&__heading {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-bottom: 30px;
+	}
+	&__icon-block {
+		position: relative;
+		margin-right: 10px;
+		&::after {
+			content: '';
+			position: absolute;
+			top: -6px;
+			right: 2px;
+			border-radius: 50%;
+			width: 14px;
+			height: 14px;
+			background-color: #f2d36f;
+			z-index: -1;
+		}		
+	}
+	&__title {
+		font-size: 26px;
+		line-height: 38px;
+		font-weight: 700;
+		color: #000;
+	}
+	&__text p {
+		display: block;
+		margin: 0;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 20px;
+		color: #202020;
+	}
+}
