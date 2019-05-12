@@ -12,6 +12,19 @@
 			margin-right: 0;
 			margin-bottom: 30px;
 		}
+		&__option-icon .icon--payment {
+			margin-right: 40px;
+		}		
+		&__option-icon .icon--credit {
+			margin-right: 40px;
+		}
+		&__option-bottom {
+			flex-wrap: wrap;
+		}
+		&__bottom-online &__option-icon:not(:last-child) {
+			margin-right: 30px;
+			margin-bottom: 15px;
+		}
 	}
 }
 

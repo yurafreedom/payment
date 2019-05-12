@@ -15,7 +15,12 @@
 			line-height: 34px;
 		}
 		&__option-bottom {
+			flex-direction: column;
 			margin-left: 0;
+		}
+		&__option-icon:not(:last-child) {
+			margin-right: 0;
+			margin-bottom: 20px;
 		}
 	}
 }
