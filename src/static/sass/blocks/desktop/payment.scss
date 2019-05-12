@@ -94,5 +94,9 @@
 		line-height: 24px;
 		color: #cf9613;
 		text-decoration: underline;
+		transition: all .3s ease-in-out;
+		&:hover {
+			color: lighten(#cf9613, 15%);
+		}
 	}
 }
